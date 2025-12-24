@@ -9,7 +9,7 @@ hachoir
 heroku3
 motor
 pillow
-httpx==0.27.2
+httpx
 psutil
 py-tgcalls==2.2.0
 pykeyboard
@@ -21,7 +21,8 @@ requests
 speedtest-cli
 spotipy
 tgcrypto
+tgcrypto;sys_platform != "win32"
 unidecode
+uvloop;sys_platform != "win32"
 yt-dlp
-youtube-search
-youtube-search-python
+yt-search-py
